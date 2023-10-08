@@ -1,8 +1,8 @@
 /*globalne style*/ 
 .body{
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #ffffff;
+    color: var(--brand-color-slate);
+    background-color: var(--brand-color-white);
 
 }
 /* zmienne  */
@@ -16,6 +16,7 @@
     --brand-color-cornflower:#E7E9FC;
 
 }
+.add-ress,
 .periot{
     list-style-type: none; 
 
@@ -23,12 +24,12 @@
  
     .link {
         text-decoration: none;
-        color: var(--text-color);
+        color: var(--brand);
         list-style-type: none; 
       }
       .logo {
         font-family: "Raleway", sans-serif;
-        color: var(--brand-color);
+        color: var(--brand-color-iris);
         text-decoration: none;
       }
       .link:hover {
@@ -38,8 +39,8 @@
         color: var(--link-hover);
       }
       .logo-studio {
-        color: var(--text-color);
-        color: #4D5AE5;
+        color: var(--brand-color-navyblue);
+       
       }
       .filter-button{
         color: var(--brand-color);
