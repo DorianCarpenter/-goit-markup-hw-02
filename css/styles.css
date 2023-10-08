@@ -18,7 +18,7 @@
 .add-ress{
     list-style-type: none;
 }
-.periot{
+.list{
     list-style-type: none; 
 
 }
@@ -72,8 +72,8 @@
 
 .filter-button{
     color: var(--brand-color-iris);
-    background-color: var(--brand-color-cornflower);
-    font-family: inherit;
+    background-color: var(--brand-color-cloud);
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,5;
@@ -87,4 +87,22 @@
     background-color: var( --brand-color-ocean);
 
 }
-
+.footer-main{
+    color: var(--brand-color-cloud);
+    background-color: var(--brand-color-navyblue);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-studio-footer{
+    color: var(--brand-color-cloud);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
+}
