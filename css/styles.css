@@ -5,7 +5,15 @@
     background-color: #ffffff;
 
 }
+/* zmienne  */
 :root{
+    --brand-color-slate:#434455;
+    --brand-color-white:#FFFFFF;
+    --brand-color-iris:#4D5AE5;
+    --brand-color-navyblue:#2E2F42;
+    --brand-color-ocean:#404BBF;
+    --brand-color-cloud:#F4F4FD;
+    --brand-color-cornflower:#E7E9FC;
 
 }
 .periot{
@@ -58,15 +66,16 @@
 }      
 
 .filter-button{
-    color: #4D5AE5;
-    background-color: var(--color-main--);
+    color: var(--brand-color-iris);
+    background-color: var(--brand-color-cornflower);
     font-family: inherit;
     text-decoration: none;
     cursor: pointer; 
 }
-.filter-button:hover{
-    color:#ffffff;
-    background-color: #404BBF;
+.filter-button:hover,
+.filter-button:focus{
+    color:var(--brand-color-white);
+    background-color: var( --brand-color-ocean);
 
 }
 
