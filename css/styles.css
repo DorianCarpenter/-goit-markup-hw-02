@@ -1,6 +1,11 @@
 /*globalne style*/ 
 .body{
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+
+}
+:root{
 
 }
 .periot{
@@ -15,11 +20,6 @@
       }
       .logo {
         font-family: "Raleway", sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
         color: var(--brand-color);
         text-decoration: none;
       }
@@ -39,14 +39,10 @@
       }
 .primary{
      background-color: #2E2F42 ;
-     width: 1440px;
-     height: 600px;
+     
 }
 .primary-title{
     text-align:center;
-    width: 496px;
-    height: 120px;
-    
     color: white;
   
 }
@@ -57,7 +53,6 @@
 }  
 .filter-list{
     color: var(--color-accent--);
-    float:center;
     list-style-type: none; 
     
 }      
