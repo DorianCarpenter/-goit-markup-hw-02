@@ -3,7 +3,6 @@
     font-family:"Roboto", sans-serif;
     color: var(--brand-color-slate);
     background-color: var(--brand-color-white);
-
 }
 /* zmienne  */
 :root{
@@ -31,6 +30,9 @@
       }
       .logo {
         font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        letter-spacing: 0,03em;
         color: var(--brand-color-iris);
         text-decoration: none;
       }
@@ -44,13 +46,10 @@
         color: var(--brand-color-navyblue);
        
       }
-      .filter-button{
-        color: var(--brand-color);
-        color: #4D5AE5;
-      }
+      
+      
 .primary{
-     background-color: #2E2F42 ;
-     
+     background-color: #2E2F42 ;    
 }
 .primary-title{
     text-align:center;
@@ -61,6 +60,8 @@
 .primary-bg{
     color: var(--brand-color-white);
     background-color: var(--brand-color-iris);
+    text-align: center;
+    cursor: pointer;
 
 }  
 .filter-list{
@@ -73,6 +74,10 @@
     color: var(--brand-color-iris);
     background-color: var(--brand-color-cornflower);
     font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.04em;
     text-decoration: none;
     cursor: pointer; 
 }
