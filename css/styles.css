@@ -1,53 +1,77 @@
-.logo{
-    font-family: 'Raleway';
-    color: #2196F3;
-}
-.style {
-    color: black; 
-width: 77px;
-height: 26px;
-left: 983px;
-top: 180px;
+/*globalne style*/ 
+.body{
+    font-family: "Roboto", sans-serif;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;}
-/* top line bg */
-.button-nav{
-    /* identical to box height, or 162% */
-
-text-align: center;
-letter-spacing: 0.03em;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
 }
-.button-nav:hover{
-    position: center;
-    width: 121px;
-    height: 38px;
-    left: 510px;
-    top: 174px;
+.periot{
+    list-style-type: none; 
+
+}
+ 
+    .link {
+        text-decoration: none;
+        color: var(--text-color);
+        list-style-type: none; 
+      }
+      .logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--brand-color);
+        text-decoration: none;
+      }
+      .link:hover {
+        color: var(--link-hover);
+      }
+      .link:focus {
+        color: var(--link-hover);
+      }
+      .logo-studio {
+        color: var(--text-color);
+        color: #4D5AE5;
+      }
+      .filter-button{
+        color: var(--brand-color);
+        color: #4D5AE5;
+      }
+.primary{
+     background-color: #2E2F42 ;
+     width: 1440px;
+     height: 600px;
+}
+.primary-title{
+    text-align:center;
+    width: 496px;
+    height: 120px;
     
-    background: #2196F3;
-    /* shadow-middle */
-    
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+    color: white;
+  
 }
-/* stopka */
-.footer{
-    position: absolute;
-    align-content: flex-end;
-width: 2400px;
-height: 252px;
-left: 0px;
-top: 1628px;
 
-background: #2F303A;
+.primary-bg{
+    color: var(--brand-color);
+    bottom: center;
+}  
+.filter-list{
+    color: var(--color-accent--);
+    float:center;
+    list-style-type: none; 
+    
+}      
+
+.filter-button{
+    color: #4D5AE5;
+    background-color: var(--color-main--);
+    font-family: inherit;
+    text-decoration: none;
+    cursor: pointer; 
 }
-.pointer         { cursor: pointer; } 
+.filter-button:hover{
+    color:#ffffff;
+    background-color: #404BBF;
+
+}
+

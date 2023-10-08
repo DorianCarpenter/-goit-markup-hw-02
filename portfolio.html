@@ -4,82 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto+Mono:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+    <title>Webstudio</title>
 </head>
 <body>
-<header>
-  <h3><a href="index.html">Webstudio</a></h3>   
+  <header>
+    <a class="logo link" href="./index.html"><span class="logo-studio">WEB</span><span>STUDIO</span></a>    
       <nav>
-          <ul>
-              <li><a href="index.html">Agencja</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="kontakt.html">Kontakt</a></li>
+          <ul class="link">
+              <li><a class="link" href="./index.html">Studio</a></li>
+              <li><a class="link" href="./portfolio.html">Portfolio</a></li>
+              <li><a class="link" href="./kontakt.html">Contacts</a></li>
               </ul>
-              <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+48 111111111">(+48)111111111</a></li>
-        </ul>
-    </nav>
-</header>
+              </nav>
+                <address>
+                  <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                  <li><a href="tel:+48 111111111">(+48)111111111</a></li>
+                </address>
+  </header>
 <main>
   <section>
-  <ul>
-<li><button class="button-nav" class="style">Wszystkie</span></li>
-<li><button class="button-nav" class="style">Strony</span></li>
-<li><button class="button-nav" class="style">Aplikacje</span></li>
-<li><button class="button-nav" class="style">Dizajn</span></li> 
-<li><button class="button-nav" class="style">Marketing</span></li>
+  <ul class="filter-list">
+<li>
+  <button type="button" class="filter-button" >All</button>
+</li>
+<li>
+  <button type="button" class="filter-button">Web Site</button>
+</li>
+<li>
+  <button type="button" class="filter-button" >App</button>
+</li>
+<li>
+  <button type="button" class="filter-button" >Design</button>
+</li> 
+<li>
+  <button type="button" class="filter-button" >Marketing</button>
+</li>
 </ul>
   </section>
 <section>
-<ul>
-  <li><img class="button" src="./images/lapweb.jpg" alt="laptopscreen" width="370" height="294"></li>
-  <h3>Technocrack</h3>
-  <p>Strona internetowa</p>
-  <li><img class="button" src="./images/nba.jpg" alt="nbaplayers" width="370" height="294"></li>
-  <h3>Grafika New Orlean vs Golden Star</h3>
-  <p>Dizajn</p>
-  <li><img class="button" src="./images/gastr.jpg" alt="logo" width="370" height="294"></li>
-  <h3>Restauracja Seafood</h3>
-  <p>Aplikacja</p>
-</ul>
-<ul>
-  <li><img class="button" src="./images/black.jpg" alt="spiker" width="370" height="294"></li>
-    <h3>Projekt Prime</h3>
+<ul class="periot">
+  <li>
+    <img class="button" src="./images/interface.jpg" alt="interface" width="370" height="294">
+  </li>
+   <h3>Banking App Interface Concept</h3>
+    <p>App</p>
+  <li>
+    <img class="button" src="./images/qr.jpg" alt="qr" width="370" height="294">
+  </li>
+   <h3>Cashless Payment</h3>
     <p>Marketing</p>
-    <li><img class="button" src="./images/pack.jpg" alt="pack" width="390" height="294"></li>
-    <h3>Projekt Boxes</h3>
-    <p>Aplikacja</p>
-    <li><img class="button" src="./images/scren.jpg" alt="screen" width="390" height="294"></li>
-    <h3>Inspiration has no Borders</h3>
-    <p>Strona internetowa</p>
+  <li>
+    <img class="button" src="./images/app.jpg" alt="app" width="370" height="294">
+  </li>
+   <h3>Meditation App</h3>
+    <p>App</p>
 </ul>
-    <ul>
-    <li><img class="button" src="./images/press.jpg" alt="press" width="390" height="294"></li>
+<ul class="periot">
+  <li>
+    <img class="button" src="./images/gp.jpg" alt="gps" width="370" height="294">
+  </li>
+    <h3>Taxi Service</h3>
+     <p>Marketing</p>
+  <li>
+    <img class="button" src="./images/illustrations.jpg" alt="illustrationsreen" width="390" height="294">
+  </li>
+     <h3>Screen Illustrations</h3>
+      <p>Design</p>
+    <li>
+      <img class="button" src="./images/orange.jpg" alt="orange" width="390" height="294">
+    </li>
+     <h3>Online Course </h3>
+      <p>Strona internetowa</p>
+</ul>
+<ul class="periot">
+  <li>
+    <img class="button" src="./images/insta.jpg" alt="insta" width="390" height="294">
+  </li>
     <h3>Magazyn Limited Edition</h3>
-    <p>Dizajn</p>
-    <li><img class="button" src="./images/lab.jpg" alt="lab" width="390" height="294"></li>
+     <p>Dizajn</p>
+  <li>
+    <img class="button" src="./images/organic.jpg" alt="organicfood" width="390" height="294">
+  </li>
     <h3>Projekt LAB</h3>
-    <p>Marketing</p>
-    <li><img class="button" src="./images/writte.jpg" alt="writte" width="390" height="294"></li>
-    <h3>Growing Business</h3>
-    <p>Aplikacja</p>
-    </ul>
-    </section>
+     <p>Marketing</p>
+  <li>
+      <img class="button" src="./images/fcoffee.jpg" alt="fcoffee" width="390" height="294">
+  </li>
+     <h3>Growing Business</h3>
+      <p>Aplikacja</p>
+  </ul>
+ </section>
 </main>
 <footer class="footer">
-  <h2>Webstudio</h2>
-  <ul>
-    <li> m. Warszawa, Aleje Jerozolimskie 21</li> 
+  <h2>
+  <a class="logo link" href="./index.html">WEB<span class="logo-studio">STUDIO</span></a>
+</h2>
+  <ul class="periot">
+     <li>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</li> 
  </ul>
-  <address>
-<ul>
-  <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-  <li><a href="tel:+48 111 111 111">(+48)111111111</a></li>
-</ul> 
-  </address>
 </footer> 
 </body>
 </html>
