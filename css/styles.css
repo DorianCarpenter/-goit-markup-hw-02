@@ -30,11 +30,11 @@
         list-style-type: none; 
       }
       .logo {
+        color: var(--brand-color-iris);
         font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 18px;
         letter-spacing: 0,03em;
-        color: var(--brand-color-iris);
         text-decoration: none;
       }
       .link:hover {
@@ -50,11 +50,11 @@
       
       
 .primary{
-     background-color: #2E2F42 ;    
+     background-color:var(--brand-color-navyblue) ;    
 }
 .primary-title{
     text-align:center;
-    color: white;
+    color: var(--brand-color-white);
   
 }
 
@@ -96,17 +96,17 @@
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    
 }
-.text-footer{
-    color: var(--brand-color-cloud);
-    background-color: var(--brand-color-navyblue);
+
+.logo-footer{
+    color: var(--brand-color-iris);
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1,5;
     letter-spacing: 0.02em;
-
+    text-decoration: none;
 }
 .logo-studio-footer{
     color: var(--brand-color-cloud);
@@ -116,4 +116,8 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase
+}
+.text-footer{
+    color: var(--brand-color-cloud);
+    text-transform: none;
 }
